@@ -1,0 +1,14 @@
+{
+  "name": "nestjs-example-rabbitmq",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "install:all": "cd service-1 && npm i && cd ../service-1 && npm i",
+    "start:docker": "cd docker && npm start",
+    "start:service-1": "cd service-1 && npm run start:dev",
+    "start:service-2": "cd service-2 && npm run start:dev",
+    "stop:docker": "cd docker && npm stop"
+  },
+  "author": "Aaron Harper",
+  "license": "MIT"
+}

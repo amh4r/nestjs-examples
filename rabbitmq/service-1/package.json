@@ -23,7 +23,7 @@
     "@nestjs/common": "^6.0.0",
     "@nestjs/core": "^6.0.0",
     "@nestjs/microservices": "^6.4.0",
-    "@nestjs/platform-express": "^6.0.0",
+    "@nestjs/platform-express": "^9.2.1",
     "@nestjs/swagger": "^3.0.2",
     "amqp-connection-manager": "^2.3.3",
     "amqplib": "^0.5.3",
